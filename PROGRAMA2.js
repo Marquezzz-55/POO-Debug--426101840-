@@ -30,7 +30,7 @@ console.log("--------------------------------------------------\n");
 // --------------------------------------------------------------------
 // EJERCICIO 2: El Fabricante de Identidades (Matriz Identidad NxN)
 // --------------------------------------------------------------------
-function crearIdentidad(n) {
+function crearIdentidad(j) {
     let matriz = [];
     // Utiliza un doble ciclo for para construir una matriz identidad de NxN.
     // Si la fila (i) es igual a la columna (j), inserta un 1. Si no, un 0.

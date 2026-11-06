@@ -26,10 +26,10 @@ class Multa {
 }
 
 class Prestamo {
-  #idPrestamo
+  #idPrestamo;
 
   constructor(idPrestamo, diasTarde) {
-    this.#idPrestamo = idPrestamo
+    this.#idPrestamo = idPrestamo;
     this.diasTarde = diasTarde;
     this.libro = null;
     this.multa = null;
